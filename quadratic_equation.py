@@ -7,6 +7,6 @@ def get_roots(a, b, c):
     if discriminant == 0:
         return root1, None
     elif discriminant < 0:
-	    return None, None
+        return None, None
     else:
         return root1, root2
